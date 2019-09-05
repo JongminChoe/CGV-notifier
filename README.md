@@ -1,42 +1,41 @@
 # CGV ¿¹¸Å ¾Ë¸®¹Ì
 
-> - ¼Ò½ºÄÚµå´Â ¾îºäÂ¡ÀÇ °¡´É¼ºÀÌ ÀÖ¾î °ø°³ÇÏÁö ¾Ê½À´Ï´Ù. ÀÌ Á¡ ¾çÇØ ¹Ù¶ø´Ï´Ù.
-> - ½ÇÁ¦ ¼Ò½ºÄÚµå´Â 120ÁÙ Á¤µµ·Î °£´ÜÇÑ Python ÄÚµå ÀÔ´Ï´Ù.
+> - ¼Ò½º ÄÚµå´Â ¿À, ³²¿ëÀÇ °¡´É¼ºÀÌ ÀÖ¾î °ø°³ÇÏÁö ¾Ê½À´Ï´Ù. ÀÌ Á¡ ¾çÇØ ¹Ù¶ø´Ï´Ù.
+> - ½ÇÁ¦ ¼Ò½º ÄÚµå´Â 120ÁÙ Á¤µµ·Î °£´ÜÇÑ Python ÄÚµåÀÔ´Ï´Ù.
 > - Á¦°¡ ¸¸µç ¾Ë¸®¹Ìµµ °ø°³°¡ ¾î·Æ½À´Ï´Ù. Àú¿¡°Ô¸¸ ¸Þ½ÃÁö¸¦ º¸³»µµ·Ï ¼³°èµÇ¾î ÀÖ±âµµ ÇÏ°í
-  Á¦°¡ º¸°í½ÍÀº ¿µÈ­°¡ ÀÖÀ»¶§¸¸ »ç¿ëÇÏ´Â Áö¶ó ½ºÅ©¸³Æ®¸¦ 24½Ã°£ µ¹¸®°í ÀÖÁöµµ ¾Ê±â ¶§¹®ÀÔ´Ï´Ù.
+  Á¦°¡ º¸°í ½ÍÀº ¿µÈ­°¡ ÀÖÀ» ¶§¸¸ »ç¿ëÇÏ´ÂÁö¶ó ½ºÅ©¸³Æ®¸¦ 24½Ã°£ µ¹¸®°í ÀÖÁöµµ ¾Ê±â ¶§¹®ÀÔ´Ï´Ù.
 
-## ¿Ö ÀÌ·±°Ô ÇÊ¿äÇÑ°¡¿ä?
-°á·ÐºÎÅÍ ¸»ÇÏÀÚ¸é ¿µÈ­ ¿¹¸Å½Ã ´õ ÁÁÀº ÀÚ¸®¸¦ Â÷ÁöÇÏ±â À§ÇÔÀÔ´Ï´Ù.
+## ¿Ö ÀÌ·± °Ô ÇÊ¿äÇÑ°¡¿ä?
+°á·ÐºÎÅÍ ¸»ÇÏÀÚ¸é ¿µÈ­ ¿¹¸Å ½Ã ´õ ÁÁÀº ÀÚ¸®¸¦ Â÷ÁöÇÏ±â À§ÇÔÀÔ´Ï´Ù.
 
-ÃÖ±Ù ¸¹Àº ¿µÈ­µéÀÌ IMAX Æ÷¸ËÀ¸·Î °³ºÀÇÏ°í ÀÖ½À´Ï´Ù.  
-Æ¯È÷ Çæ¸®¿ìµå ¿µÈ­´Â °ÅÀÇ ´ëºÎºÐ IMAX Æ÷¸ËÀ¸·Î °³ºÀÇÑ´Ù°í ÇØµµ °ú¾ðÀÌ ¾Æ´Õ´Ï´Ù.  
+ÃÖ±Ù ¸¹Àº ¿µÈ­°¡ IMAX Æ÷¸ËÀ¸·Î °³ºÀÇÏ°í ÀÖ½À´Ï´Ù.  
+Æ¯È÷ ÇÒ¸®¿ìµå ¿µÈ­´Â ´ëºÎºÐ IMAX Æ÷¸ËÀ¸·Î °³ºÀÇÑ´Ù°í ÇØµµ °ú¾ðÀÌ ¾Æ´Õ´Ï´Ù.  
 
 IMAX Æ÷¸ËÀº ±âÁ¸ÀÇ Æ÷¸Ë°ú ´Ù¸£°Ô ´õ Å« È­¸é, ´õ ³ªÀº È­Áú°ú »ç¿îµå¸¦ Á¦°øÇÔÀ¸·Î½á °ü°´µé¿¡°Ô ´õ ¸ôÀÔ°¨ ÀÖ´Â ¿µÈ­ °æÇèÀ» Á¦°øÇÏ´Â Æ÷¸ËÀÔ´Ï´Ù.  
-±×·¸´Ù º¸´Ï ¸¹Àº ¿µÈ­ ¸Å´Ï¾ÆµéÀÌ ÀÌ Æ÷¸ËÀ¸·Î ¿µÈ­¸¦ º¸°í½Í¾î ÇÏ¸ç À¯¸í Çæ¸®¿ìµå ¿µÈ­ÀÇ °æ¿ì ¾ÏÇ¥±îÁö µîÀåÇÒ Á¤µµÀÔ´Ï´Ù.  
+CGV´Â ÀÌ·¯ÇÑ IMAX Æ÷¸ËÀ» ±¹³»¿¡¼­ µ¶Á¡ÀûÀ¸·Î °ø±ÞÇÏ°í ÀÖÀ¸¸ç ¶ÇÇÑ ¸ÖÆ¼ÇÃ·º½º ¿µÈ­°ü Áß¿¡¼­´Â ¼¼°è ÃÖ´ë ½ºÅ©¸°ÀÇ IMAX °üÀ» ¿ë»êÁ¡¿¡ º¸À¯ÇÏ°í ÀÖ½À´Ï´Ù.  
+°Ô´Ù°¡ IMAX ½ºÅ©¸°ÀÇ °Å´ëÇÑ Å©±â ¶§¹®¿¡ ¾ÕÀÚ¸®´Â ¿µÈ­¸¦ º¸±â ºÒÆíÇØ¼­ ¸¹Àº »ç¶÷ÀÌ ±âÇÇÇÏ°í, ÈçÈ÷ '¸í´ç'ÀÌ¶ó°í ¸»ÇÏ´Â Á¤ Áß¾ÓÀÚ¸®¸¦ ¼±È£ÇÏ´Â °æÇâÀÌ °­ÇÕ´Ï´Ù.  
+±×·¡¼­ ¸¹Àº ¿µÈ­ ¸¶´Ï¾ÆµéÀÌ ÀÌ Æ÷¸ËÀ¸·Î ´õ ÁÁÀº ÀÚ¸®¿¡¼­ ¿µÈ­¸¦ º¸°í ½Í¾î ÇÏ¸ç, ÀÌ ¶§¹®¿¡ À¯¸í ÇÒ¸®¿ìµå ¿µÈ­ÀÇ °æ¿ì ¾ÏÇ¥±îÁö µîÀåÇÒ Á¤µµÀÔ´Ï´Ù.
 
-CGV´Â ÀÌ·¯ÇÑ IMAX Æ÷¸ËÀ» ±¹³»¿¡¼­ µ¶Á¡ÀûÀ¸·Î °ø±ÞÇÏ°í ÀÖÀ¸¸ç ¶ÇÇÑ ¸ÖÆ¼ÇÃ·º½º ¿µÈ­°ü Áß¿¡¼­´Â ¼¼°è ÃÖ´ë ½ºÅ©¸°ÀÇ IMAX°üÀ» ¿ë»êÁ¡¿¡ º¸À¯ÇÏ°í ÀÖ½À´Ï´Ù.  
-°Ô´Ù°¡ IMAX ½ºÅ©¸°ÀÇ °Å´ëÇÑ Å©±â ¶§¹®¿¡ ¾ÕÀÚ¸®´Â ¸¹Àº »ç¶÷µéÀÌ ±âÇÇÇÏ´Ùº¸´Ï ÈçÈ÷ ¸»ÇÏ´Â '¸í´ç' ÀÚ¸®ÀÎ Á¤ °¡¿îµ¥¿¡¼­ ¿µÈ­¸¦ º¸±â À§ÇØ ¸¹Àº »ç¶÷µéÀÌ °æÀïÇÏ°í ÀÖ½À´Ï´Ù.  
+ÇÏÁö¸¸ ¿µÈ­ ¿¹¸Å´Â °ø¿¬ ¿¹¸Å¿Í ´Þ¸® ¿¹¸Å ¿ÀÇÂ ½Ã°¢ÀÌ Á¤ÇØÁ® ÀÖÁö ¾Ê±â ¶§¹®¿¡ ÁÁÀº ÀÚ¸®¸¦ »ç¼öÇÏ·Á¸é ¼ö½Ã·Î ¿¹¸Å Ã¢À» ºÁ¾ß ÇÑ´Ù´Â ºÒÆíÇÔÀÌ ÀÖ½À´Ï´Ù.  
+±×·¡¼­ ÀÌ·± ºÒÆíÇÔÀ» ÇØ°áÇÏ±â À§ÇØ ÄÄÇ»ÅÍ¿¡ ´ë½Å ¿¹¸Å Ã¢À» °¨½ÃÇÏ°Ô ½ÃÅ°´Â ¿¹¸Å ¾Ë¸®¹Ì¸¦ ¸¸µé°Ô µÇ¾ú½À´Ï´Ù.
 
-ÇÏÁö¸¸ ¿µÈ­ ¿¹¸Å´Â °ø¿¬ ¿¹¸Å Ã³·³ ¿¹¸Å ¿ÀÇÂ ½Ã°¢ÀÌ Á¤ÇØÁ® ÀÖÁö ¾Ê±â ¶§¹®¿¡ ¼ö½Ã·Î ¿¹¸ÅÃ¢À» ºÁ¾ßÇÑ´Ù´Â ºÒÆíÇÔÀÌ ÀÖ½À´Ï´Ù.  
-±×·¡¼­ ÀÌ¸¦ ÇØ°áÇÏ±â À§ÇØ ÄÄÇ»ÅÍ¿¡°Ô ´ë½Å ¿¹¸ÅÃ¢À» °¨½ÃÇÏµµ·Ï ½ÃÅ°´Â ¿¹¸Å ¾Ë¸®¹Ì¸¦ ¸¸µé°Ô µÇ¾ú½À´Ï´Ù.
-
-## ÀÌ·±°Å ÀÌ¹Ì ÀÖÁö ¾Ê³ª¿ä?
+## ÀÌ·± °Å ÀÌ¹Ì ÀÖÁö ¾Ê³ª¿ä?
 ³×. ÀÌ¹Ì ÀÖ½À´Ï´Ù.
 
 ## ±×·±µ¥ ¿Ö ¸¸µé¾ú³ª¿ä?
-´Ù¸¥ºÐµéÀÌ ¸¸µç°Ô ¸î°¡Áö ¹®Á¦°¡ ÀÖ¾ú±â ¶§¹®ÀÔ´Ï´Ù.
+´Ù¸¥ ºÐµéÀÌ ¸¸µç °Ô ¸î °¡Áö ¹®Á¦°¡ ÀÖ¾ú±â ¶§¹®ÀÔ´Ï´Ù.
 
-### 1. Á¦°¡ ¿øÇÒ¶§ ¼­ºñ½º¸¦ Á¦°ø¹ÞÁö ¸øÇÒ ¼ö ÀÖ½À´Ï´Ù.
+### 1. Á¦°¡ ¿øÇÒ ¶§ ¼­ºñ½º¸¦ ¹ÞÁö ¸øÇÒ ¼ö ÀÖ½À´Ï´Ù.
 <https://twitter.com/imaxnotify_ys>  
-ÀÌ Æ®À§ÅÍ °èÁ¤Àº ÈÄ¿¡ ³ª¿Â ÅÚ·¹±×·¥ Ã¤³ÎÀ» ¾Ë±â Àü±îÁö ÁÖ·Î »ç¿ëÇß´ø ¿¹¸Å ¾Ë¸®¹Ì ÀÔ´Ï´Ù.  
+ÀÌ Æ®À§ÅÍ °èÁ¤Àº ÈÄ¿¡ ³ª¿Â ÅÚ·¹±×·¥ Ã¤³ÎÀ» ¾Ë±â Àü±îÁö ÁÖ·Î »ç¿ëÇß´ø ¿¹¸Å ¾Ë¸®¹ÌÀÔ´Ï´Ù.  
 ±×·±µ¥ 2019³â ÀÌÈÄ·Î ¹«½¼ ÀÌÀ¯ÀÎÁö ¾÷µ¥ÀÌÆ®°¡ ÀÌ·ç¾îÁöÁö ¾Ê°í ÀÖ½À´Ï´Ù.  
-ÀÌ·¸µí °³¹ßÀÚ°¡ Áö¿øÀ» Áß´ÜÇØ¹ö¸®¸é ´õÀÌ»ó »ç¿ëÇÒ ¼ö ¾ø´Â ¹®Á¦°¡ ÀÖ½À´Ï´Ù.
+ÀÌ·¸µí °³¹ßÀÚ°¡ Áö¿øÀ» Áß´ÜÇØ¹ö¸®¸é ´õ´Â »ç¿ëÇÒ ¼ö ¾ø´Â ¹®Á¦°¡ ÀÖ½À´Ï´Ù.
 
 ### 2. ÀÌ¹Ì Á¸ÀçÇÏ´Â ¼­ºñ½º¿¡ ¿À·ù°¡ ÀÖ½À´Ï´Ù.
 <https://t.me/cgvyongsan>  
 ![telegram_channel](./images/telegram_channel.jpg)  
 À§ ¸µÅ©´Â CGV ¿ë»ê IMAX ¿¹¸Å¸¦ ¾Ë·ÁÁÖ´Â ÅÚ·¹±×·¥ °ø°³ Ã¤³ÎÀÌ¸ç ±× ¾Æ·¡ »çÁøÀº ¾Ë¸²¿¡ ¿À·ù°¡ ¹ß»ýÇÑ ¸ð½ÀÀÔ´Ï´Ù.  
-À§¿Í°°ÀÌ ¿µÈ­ ¿¢½ÃÆ® ¾Ë¸²Àº Á¤»óÀûÀ¸·Î ¿ÔÁö¸¸ ºÐ³ëÀÇ ÁúÁÖ ¾Ë¸²Àº µÞºÎºÐÀÌ Àß·È½À´Ï´Ù.  
+À§Ã³·³ ¿µÈ­ ¿¢½ÃÆ® ¾Ë¸²Àº Á¤»óÀûÀ¸·Î ¿ÔÁö¸¸, ºÐ³ëÀÇ ÁúÁÖ ¾Ë¸²Àº µÞºÎºÐÀÌ Àß·È½À´Ï´Ù.  
 ´õ¿í ½É°¢ÇÑ ¹®Á¦´Â ÀÌ·¸°Ô ¿À·ù°¡ ¹ß»ýÇßÀ½¿¡µµ °³¹ßÀÚ°¡ ¿À·ù¸¦ ÀüÇô °íÄ¡Áö ¾Ê°í ÀÖ½À´Ï´Ù.
 
 > ÀÌ¿¡ ´ëÇÑ ¿øÀÎÀ» ºÐ¼®ÇØº¸ÀÚ¸é ´ÙÀ½°ú °°½À´Ï´Ù.
@@ -44,12 +43,17 @@ CGV´Â ÀÌ·¯ÇÑ IMAX Æ÷¸ËÀ» ±¹³»¿¡¼­ µ¶Á¡ÀûÀ¸·Î °ø±ÞÇÏ°í ÀÖÀ¸¸ç ¶ÇÇÑ ¸ÖÆ¼ÇÃ·º½º ¿µÈ
 > ¿ì¼± ÅÚ·¹±×·¥¿¡´Â ¿©·¯ »ç¿ëÀÚ°¡ µé¾î¿Ã ¼ö ÀÖ´Â 'Ã¤³Î'ÀÌ ÀÖ°í, ÅÚ·¹±×·¥ À¯Àú¿Í À¯»çÁö¸¸ »ç¶÷Àº ¾Æ´Ñ 'º¿'ÀÌ Á¸ÀçÇÕ´Ï´Ù.  
 > ÅÚ·¹±×·¥¿¡¼­ Ã¤³Î¿¡ ¸Þ½ÃÁö¸¦ º¸³»·Á¸é Æ¯Á¤ ÅÚ·¹±×·¥ º¿À» Ã¤³Î °ü¸®ÀÚ·Î ÁöÁ¤ÇÑ µÚ, ÇØ´ç º¿ÀÇ ÅäÅ«À» ÀÌ¿ëÇÏ¿© sendMessage ¸Þ¼Òµå¸¦ È£ÃâÇØ¾ß ÇÕ´Ï´Ù.  
 > sendMessage API ¹®¼­: <https://core.telegram.org/bots/api#sendmessage>  
+> 
 > µû¶ó¼­ ´ÙÀ½°ú °°Àº URLÀ» È£ÃâÇÏ¸é Ã¤³Î¿¡ ¸Þ½ÃÁö¸¦ º¸³¾ ¼ö ÀÖ½À´Ï´Ù.  
 > `https://api.telegram.org/bot[BOT_TOKEN]/sendMessage?chat_id=[CHANNEL_NAME]&text=[MESSAGE]`  
-> À§¿Í°°ÀÌ ¸Þ½ÃÁö´Â GET ¿äÃ»ÀÇ `text` ÆÄ¶ó¹ÌÅÍ·Î µé¾î°©´Ï´Ù.  
-> ±×·±µ¥ ¿À·ù°¡ ³­ ¸Þ½ÃÁö¸¦ º¸¸é **<u>ºÐ³ëÀÇ ÁúÁÖ- È©½º</u>** ±îÁö¸¸ ³ª¿ÍÀÖ½À´Ï´Ù.  
-> ÀÌ ºÎºÐ¿¡´Â ¿µÈ­ Á¦¸ñÀÌ ³ª¿Í¾ß ÇÏ´Âµ¥ ¿µÈ­ÀÇ Á¦¸ñÀº **<u>ºÐ³ëÀÇ ÁúÁÖ- È©½º&¼î</u>** ÀÔ´Ï´Ù.  
-> µû¶ó¼­ ÀÌ·Î ¹Ì·ç¾îº¼ ¶§ ¸Þ½ÃÁö¿¡¼­ URL¿¡ µé¾î°¡´Â Æ¯¼ö¹®ÀÚ¸¦ Á¦´ë·Î Ã³¸®ÇÏÁö ¾ÊÀº Ã¤ GETÀÇ ÆÄ¶ó¹ÌÅÍ·Î ³Ñ±ä°Ô ¸Þ½ÃÁö°¡ Àß¸° ¿øÀÎÀÌ¶ó°í ÃßÃøÇÒ ¼ö ÀÖ½À´Ï´Ù.  
+> 
+> À§Ã³·³ ¸Þ½ÃÁö´Â GET ¿äÃ»ÀÇ `text` ÆÄ¶ó¹ÌÅÍ·Î µé¾î°©´Ï´Ù.  
+> 
+> ±×·±µ¥ ¿À·ù°¡ ³­ ¸Þ½ÃÁö¸¦ º¸¸é **<u>'ºÐ³ëÀÇ ÁúÁÖ- È©½º'</u>** ±îÁö¸¸ ³ª¿Í ÀÖ½À´Ï´Ù.  
+> ÀÌ ºÎºÐ¿¡´Â ¿µÈ­ Á¦¸ñÀÌ ³ª¿Í¾ß ÇÏ´Âµ¥ ¿µÈ­ÀÇ Á¦¸ñÀº **<u>'ºÐ³ëÀÇ ÁúÁÖ- È©½º&¼î'</u>** ÀÔ´Ï´Ù.  
+> 
+> µû¶ó¼­ ÀÌ·Î ¹Ì·ç¾îº¼ ¶§ ¸Þ½ÃÁö¿¡¼­ URL¿¡ µé¾î°¡´Â Æ¯¼ö¹®ÀÚ¸¦ Á¦´ë·Î Ã³¸®ÇÏÁö ¾ÊÀº Ã¤ GETÀÇ ÆÄ¶ó¹ÌÅÍ·Î ³Ñ±ä °Ô ¸Þ½ÃÁö°¡ Àß¸° ¿øÀÎÀÌ¶ó°í ÃßÃøÇÒ ¼ö ÀÖ½À´Ï´Ù.  
+> 
 > µû¶ó¼­ ÀÌ ¹®Á¦¸¦ ÇØ°áÇÏ±â À§ÇØ¼­´Â `text` ÆÄ¶ó¹ÌÅÍ¿¡ µé¾î°¡´Â ¸Þ½ÃÁö¸¦ [URL Encoding](https://ko.wikipedia.org/wiki/%ED%8D%BC%EC%84%BC%ED%8A%B8_%EC%9D%B8%EC%BD%94%EB%94%A9) ÇÑ µÚ ³Ö¾îÁØ´Ù¸é ÇØ°áµÉ °ÍÀÔ´Ï´Ù.
 
 > Ãß°¡·Î ÅÚ·¹±×·¥ÀÇ ¸Þ¼Òµå¸¦ È£ÃâÇÏ´Â ¹æ¹ýÀº GET ¹æ½Ä ¸»°íµµ POST ¹æ½Äµµ Áö¿øÇÏ°í ÀÖ½À´Ï´Ù.
@@ -61,37 +65,46 @@ CGV´Â ÀÌ·¯ÇÑ IMAX Æ÷¸ËÀ» ±¹³»¿¡¼­ µ¶Á¡ÀûÀ¸·Î °ø±ÞÇÏ°í ÀÖÀ¸¸ç ¶ÇÇÑ ¸ÖÆ¼ÇÃ·º½º ¿µÈ
 >> - multipart/form-data (use to upload files)  
 > 
 > À§ÀÇ ºÐ¼®¿¡¼­´Â `URL query string`À» »ç¿ëÇß´Ù°í °¡Á¤ÇßÁö¸¸ ´ÙÀ½°ú °°Àº °æ¿ìµµ »ý°¢ÇØº¼ ¼ö ÀÖ½À´Ï´Ù.
-> - `application/x-www-form-urlencoded`À» »ç¿ëÇß´Ù¸é `URL query string`°ú ¸¶Âù°¡Áö·Î `key1=value1&key2=value2&...`¿Í °°Àº Æ÷¸ËÀ¸·Î ÆÄ¶ó¹ÌÅÍ¸¦ Àü¼ÛÇÏ¹Ç·Î ¶È°°ÀÌ URL EncodingÀ» ÇØ¾ß ÇÕ´Ï´Ù. °³¹ßÀÚ ºÐ²²¼­ GET ¹æ½ÄÀ» »ç¿ëÇÏÁö ¾Ê¾Ò´Ù¸é ÀÌ ¹æ½ÄÀ¸·Î ÆÄ¶ó¹ÌÅÍ¸¦ ³Ñ°åÀ» °ÍÀÌ¶ó°í ÃßÃøÇÒ ¼ö ÀÖ½À´Ï´Ù.
-> - `application/json`¿¡¼­´Â `&`¸¦ Æ¯¼ö¹®ÀÚ·Î »ç¿ëÇÏÁö ¾ÊÀ¸¹Ç·Î ÀÌ¸¦ »ç¿ëÇß´Ù¸é À§¿Í °°Àº ¿À·ù°¡ ¹ß»ýÇßÀ» °¡´É¼ºÀº ¾ø½À´Ï´Ù. ´Ù¸¸ ÀÌ¸¦ »ç¿ëÇÏ·Á¸é ¿µÈ­ Á¦¸ñ¿¡ JSON¿¡ µé¾î°¡´Â Æ¯¼ö¹®ÀÚ°¡ µé¾î°¡Áö ¾Ê´Â´Ù´Â º¸ÀåÀÌ ¾øÀ¸¹Ç·Î ÀÌ¸¦ ÀûÀýÈ÷ Ã³¸®ÇÏ´Â ÄÚµå¸¦ Â¥°Å³ª PythonÀÌ¶ó¸é ³»Àå ¶óÀÌºê·¯¸®ÀÎ `json` ¶óÀÌºê·¯¸®¸¦ »ç¿ëÇÏ´Â°ÍÀÌ ÁÁ½À´Ï´Ù.
-> - `multipart/form-data`´Â ÁÖ·Î ÆÄÀÏÀ» ¾÷·Îµå ÇÏ´Âµ¥ »ç¿ëµÇ¹Ç·Î ´Ü¼øÈ÷ ¸Þ½ÃÁö¸¦ Àü¼ÛÇÏ´Âµ¥ ÀÌ¿Í °°Àº ¹æ½ÄÀ» »ç¿ëÇÒ ÀÌÀ¯°¡ ¾ø½À´Ï´Ù.
+> - `application/x-www-form-urlencoded`¸¦ »ç¿ëÇß´Ù¸é `URL query string`°ú ¸¶Âù°¡Áö·Î `key1=value1&key2=value2&...`¿Í °°Àº Æ÷¸ËÀ¸·Î ÆÄ¶ó¹ÌÅÍ¸¦ Àü¼ÛÇÏ¹Ç·Î ¶È°°ÀÌ URL EncodingÀ» ÇØ¾ß ÇÕ´Ï´Ù. °³¹ßÀÚ ºÐ²²¼­ GET ¹æ½ÄÀ» »ç¿ëÇÏÁö ¾Ê¾Ò´Ù¸é ÀÌ ¹æ½ÄÀ¸·Î ÆÄ¶ó¹ÌÅÍ¸¦ ³Ñ°åÀ» °ÍÀ¸·Î ÃßÃøÇÒ ¼ö ÀÖ½À´Ï´Ù.
+> - `application/json`¿¡¼­´Â `&`¸¦ Æ¯¼ö¹®ÀÚ·Î »ç¿ëÇÏÁö ¾ÊÀ¸¹Ç·Î ÀÌ¸¦ »ç¿ëÇß´Ù¸é À§¿Í °°Àº ¿À·ù°¡ ¹ß»ýÇßÀ» °¡´É¼ºÀº ¾ø½À´Ï´Ù. ´Ù¸¸ ÀÌ¸¦ »ç¿ëÇÏ·Á¸é ¿µÈ­ Á¦¸ñ¿¡ JSON¿¡ µé¾î°¡´Â Æ¯¼ö¹®ÀÚ°¡ µé¾î°¡Áö ¾Ê´Â´Ù´Â º¸ÀåÀÌ ¾øÀ¸¹Ç·Î ÀÌ¸¦ ÀûÀýÈ÷ Ã³¸®ÇÏ´Â ÄÚµå¸¦ Â¥°Å³ª PythonÀÌ¶ó¸é ³»Àå ¶óÀÌºê·¯¸®ÀÎ `json` ¶óÀÌºê·¯¸®¸¦ »ç¿ëÇÏ´Â °ÍÀÌ ÁÁ½À´Ï´Ù.
+> - `multipart/form-data`´Â ÁÖ·Î ÆÄÀÏÀ» ¾÷·Îµå ÇÏ´Â µ¥ »ç¿ëµÇ¹Ç·Î ´Ü¼øÈ÷ ¸Þ½ÃÁö¸¦ Àü¼ÛÇÏ´Âµ¥ ÀÌ¿Í °°Àº ¹æ½ÄÀ» »ç¿ëÇÒ ÀÌÀ¯°¡ ¾ø½À´Ï´Ù.
 
 ### 3. ´Ù¸¥ ¿µÈ­°üÀº È®ÀÎÇÒ ¼ö°¡ ¾ø½À´Ï´Ù.
-ÀÌ·¯ÇÑ ¾Ë¸²Àº ÁÖ·Î CGV ÁÖ¿ä ÁöÁ¡ÀÇ IMAX³ª 4DX°°Àº ÀÎ±â Æ÷¸ËÀÇ ¿¹¸ÅÁ¤º¸¸¸ Á¦°øÇÕ´Ï´Ù. ±×·¸´Ù º¸´Ï ±× ¿ÜÀÇ ¿¹¸ÅÁ¤º¸´Â ¾òÀ» ¼ö ¾ø´Ù´Â ¹®Á¦°¡ ÀÖ½À´Ï´Ù.  
+ÀÌ·¯ÇÑ ¾Ë¸²Àº ÁÖ·Î CGV ÁÖ¿ä ÁöÁ¡ÀÇ IMAX³ª 4DX °°Àº ÀÎ±â Æ÷¸ËÀÇ ¿¹¸ÅÁ¤º¸¸¸ Á¦°øÇÕ´Ï´Ù. ±×·¸´Ù º¸´Ï ±× ¿ÜÀÇ ¿¹¸ÅÁ¤º¸´Â ¾òÀ» ¼ö ¾ø´Ù´Â ¹®Á¦°¡ ÀÖ½À´Ï´Ù.  
 ¸¸¾à CGV¿¡¼­ ´õ ÁÁÀº »ó¿µ°üÀÌ¶óµµ ¸¸µç´Ù¸é ¾Ë¸®¹Ì¸¦ °³¹ßÇÏ½Å ºÐÀÌ »õ·Î¿î ¾Ë¸®¹Ì¸¦ ¸¸µéÁö ¾Ê´Â ÇÑ ÇØ´ç °üÀÇ ¿¹¸Å Á¤º¸´Â ¹Þ¾Æ¿Ã ¼ö°¡ ¾ø½À´Ï´Ù.
 
 ## ±×·¡¼­ ¾î¶»°Ô °³¹ßÇß³ª¿ä?
 - ¿ì¼± °³¹ß ¾ð¾î·Î´Â PythonÀ» ¼±ÅÃÇß½À´Ï´Ù.
   - PythonÀ» °í¸¥ ÀÌÀ¯´Â À¥ Å©·Ñ¸µ¿¡ ÇÊ¿äÇÑ ´Ù¾çÇÑ ¶óÀÌºê·¯¸®°¡ Á¸ÀçÇÏ±â ¶§¹®¿¡ ¼±ÅÃÇÏ°Ô µÇ¾ú½À´Ï´Ù.
-    - HTML ¹®¼­ ´Ù¿î·Îµå¿Í ÅÚ·¹±×·¥ API¸¦ ÀÌ¿ëÇÏ±â À§ÇØ requests ¸ðµâÀ» »ç¿ëÇÏ¿´½À´Ï´Ù.  
-    - HTML ÆÄ½ÌÀ» À§ÇØ BeautifulSoup ¶óÀÌºê·¯¸®¿Í urlib ÆÐÅ°Áö ³» parse ¸ðµâÀ» »ç¿ëÇÏ¿´½À´Ï´Ù.  
-    - ÅÚ·¹±×·¥ ¸Þ½ÃÁö Àü¼Û¿¡´Â [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) ÀÌ¶ó´Â ¶óÀÌºê·¯¸®µµ Á¸ÀçÇÏÁö¸¸ Àú´Â ¸Þ½ÃÁö Àü¼Û ÇÑ°¡ÁöÀÇ ±â´É¸¸ »ç¿ëÇÒ °ÍÀÌ¹Ç·Î ±»ÀÌ ÀÌ¸¦ ÀÌ¿ëÇÏ±â º¸´Ù´Â requests¸¦ »ç¿ëÇÏ¿© Á÷Á¢ ±¸ÇöÇÏ¿´½À´Ï´Ù.
+    - HTML ¹®¼­ ´Ù¿î·Îµå¿Í ÅÚ·¹±×·¥ API¸¦ ÀÌ¿ëÇÏ±â À§ÇØ requests ¸ðµâÀ» »ç¿ëÇß½À´Ï´Ù.  
+    - HTML ÆÄ½ÌÀ» À§ÇØ BeautifulSoup ¶óÀÌºê·¯¸®¿Í urlib ÆÐÅ°Áö ³» parse ¸ðµâÀ» »ç¿ëÇß½À´Ï´Ù.  
+    - ÅÚ·¹±×·¥ ¸Þ½ÃÁö Àü¼Û¿¡´Â [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)ÀÌ¶ó´Â ¶óÀÌºê·¯¸®µµ Á¸ÀçÇÏÁö¸¸ Àú´Â ¸Þ½ÃÁö Àü¼Û ÇÑ°¡ÁöÀÇ ±â´É¸¸ »ç¿ëÇÒ °ÍÀÌ¹Ç·Î ±»ÀÌ ÀÌ¸¦ ÀÌ¿ëÇÏ±âº¸´Ù´Â requests¸¦ »ç¿ëÇÏ¿© Á÷Á¢ ±¸ÇöÇß½À´Ï´Ù.
 - ¶ÇÇÑ ¾Ë¸²Àº ÅÚ·¹±×·¥ º¿À» ÀÌ¿ëÇÏ±â·Î Çß½À´Ï´Ù.
   - ÅÚ·¹±×·¥Àº API°¡ °ø°³µÇ¾î ÀÖÀ¸¸ç ÀÌ¸¦ ÀÌ¿ëÇØ »ó´ë¹æ¿¡°Ô ¸Þ½ÃÁö¸¦ º¸³»´Â °úÁ¤µµ ¸Å¿ì °£´ÜÇÕ´Ï´Ù.
   - ¶ÇÇÑ ÅÚ·¹±×·¥ º¿À» ÀÌ¿ëÇÏ¸é º¹ÀâÇÑ Çª½Ã ¼­¹ö¸¦ ÀÌ¿ëÇÏÁö ¾Ê°íµµ °£´ÜÇÏ°Ô Àú¿¡°Ô ¾Ë¸²À» º¸³¾ ¼ö ÀÖ½À´Ï´Ù.
-  - ¹«¾ùº¸´Ùµµ ÀÌ ¸ðµç°Ô ¹«·áÀÌ±â ¶§¹®¿¡ ÅÚ·¹±×·¥ º¿À» ¼±ÅÃÇß½À´Ï´Ù.
-- ¶ÇÇÑ CGV ¿¹¸ÅÃ¢ÀÇ ±¸Á¶¸¦ ¾Ë¾Æ¾ß ÇÏ±â ¶§¹®¿¡ Å©·Ò ºê¶ó¿ìÀúÀÇ °³¹ßÀÚ µµ±¸¸¦ ÀÌ¿ëÇÏ¿© HTMLÀ» ·ÎµùÇÏ´Â °úÁ¤°ú ÇØ´ç HTMLÀÇ ±¸Á¶¸¦ ÆÄ¾ÇÇß½À´Ï´Ù.
+  - ¹«¾ùº¸´Ùµµ ÀÌ ¸ðµç °Ô ¹«·áÀÌ±â ¶§¹®¿¡ ÅÚ·¹±×·¥ º¿À» ¼±ÅÃÇß½À´Ï´Ù.
+- ¶ÇÇÑ CGV ¿¹¸Å Ã¢ÀÇ ±¸Á¶¸¦ ¾Ë¾Æ¾ß ÇÏ¹Ç·Î Å©·Ò ºê¶ó¿ìÀúÀÇ °³¹ßÀÚ µµ±¸¸¦ ÀÌ¿ëÇÏ¿© HTMLÀ» ·ÎµùÇÏ´Â °úÁ¤°ú ÇØ´ç HTMLÀÇ ±¸Á¶¸¦ ÆÄ¾ÇÇß½À´Ï´Ù.
+
+ÇÁ·Î±×·¥ ±¸Á¶´Â ´ÙÀ½°ú °°½À´Ï´Ù
+1. ¿øÇÏ´Â CGV ÁöÁ¡ÀÇ ¿¹¸Å Ã¢À» °¡Á®¿Â µÚ »ó¿µ ½ºÄÉÁÙÀÌ ÀÖ´Â ³¯Â¥¸¦ È®ÀÎÇÕ´Ï´Ù.
+2. ³¯Â¥º°·Î ¿¹¸Å Ã¢À» °¡Á®¿É´Ï´Ù. (CGV´Â ÁöÁ¡°ú ³¯Â¥º°·Î ¿¹¸Å ½ºÄÉÁÙÀ» Á¦°øÇÏ°í ÀÖ½À´Ï´Ù)
+3. ¿¹¸Å Ã¢¿¡¼­ ¿øÇÏ´Â Æ÷¸ËÀ¸·Î »ó¿µÇÏ´Â ½ºÄÉÁÙÀ» °¡Á®¿Í ¸®½ºÆ®¿¡ ÀúÀåÇÕ´Ï´Ù.
+4. ÀÌÀü¿¡ È®ÀÎÇÑ ¸®½ºÆ®¿Í ºñ±³ÇÏ¿© »õ·Î Ãß°¡µÈ ½ºÄÉÁÙÀÌ ÀÖ´ÂÁö È®ÀÎÇÕ´Ï´Ù.
+5. ¸¸¾à ÀÖ´Ù¸é ÇØ´ç Á¤º¸¸¦ ÅÚ·¹±×·¥ ¸Þ½ÃÁö·Î Àü¼ÛÇÕ´Ï´Ù.
+6. »õ·Î °¡Á®¿Â ¸®½ºÆ®´Â 4¸¦ À§ÇØ ÀúÀåÇØ µÓ´Ï´Ù.
+7. ÁöÁ¤µÈ ½Ã°£¸¸Å­ ¸ØÃá µÚ 1·Î µ¹¾Æ°©´Ï´Ù.
 
 ## °á°ú¸¦ º¸¿©ÁÙ ¼ö ÀÖ³ª¿ä?
 ![my_telegram_bot](./images/my_telegram_bot.jpg)  
-Á»Àü¿¡ ¼Ò°³ÇÑ ÅÚ·¹±×·¥ Ã¤³Î°ú´Â ´Þ¸® ¿¹¸Å Á¤º¸¸¦ Á¤È®ÇÏ°Ô °¡Á®¿À°í ÀÖ½À´Ï´Ù.  
-¶ÇÇÑ HTML ´Ù¿î·Îµå½Ã ÆÄ¶ó¹ÌÅÍ¸¸ ¼öÁ¤ÇÑ´Ù¸é ¾ó¸¶µçÁö ´Ù¸¥ ÁöÁ¡ÀÇ ¿¹¸ÅÁ¤º¸¸¦ °¡Á®¿Ã ¼ö ÀÖ½À´Ï´Ù.
+Á» Àü¿¡ ¼Ò°³ÇÑ ÅÚ·¹±×·¥ Ã¤³Î°ú´Â ´Þ¸® ¿¹¸Å Á¤º¸¸¦ Á¤È®ÇÏ°Ô °¡Á®¿À°í ÀÖ½À´Ï´Ù.  
+¶ÇÇÑ HTML ´Ù¿î·Îµå ½Ã ÆÄ¶ó¹ÌÅÍ¸¸ ¼öÁ¤ÇÑ´Ù¸é ¾ó¸¶µçÁö ´Ù¸¥ ÁöÁ¡ÀÇ ¿¹¸ÅÁ¤º¸¸¦ °¡Á®¿Ã ¼ö ÀÖ½À´Ï´Ù.
 
 ## °á°ú¹°¿¡ ¾Æ½¬¿î ºÎºÐÀÌ ÀÖ´Ù¸é?
 * ÀÌ ÄÚµå¸¦ ½ÇÇàÇÒ µð¹ÙÀÌ½º°¡ ÀÖ¾î¾ß ÇÕ´Ï´Ù. ±×¸®°í ±× µð¹ÙÀÌ½º´Â °áÄÚ °øÂ¥°¡ ¾Æ´Õ´Ï´Ù.  
 * ´Ù¸¥ ÁöÁ¡ÀÇ ¿¹¸Å Á¤º¸¸¦ º¸·Á¸é ÄÚµå¿¡ ÇÏµåÄÚµù µÇ¾îÀÖ´Â ÆÄ¶ó¹ÌÅÍ¸¦ ¼öÁ¤ÇØ¾ß ÇÕ´Ï´Ù.
-* ±× ÆÄ¶ó¹ÌÅÍ¸¦ ¾Ë¾Æ³»·Á¸é ¶Ç ´Ù½Ã CGV È¨ÆäÀÌÁö¸¦ ºÐ¼®ÇØ¾ß ÇÕ´Ï´Ù.
+* ±× ÆÄ¶ó¹ÌÅÍ¸¦ ¾Ë¾Æ³»·Á¸é ¶Ç´Ù½Ã CGV È¨ÆäÀÌÁö¸¦ ºÐ¼®ÇØ¾ß ÇÕ´Ï´Ù.
 
-## ÇÁ·ÎÁ§Æ®¸¦ ÁøÇàÇÏ°í ´À³¤Á¡ÀÌ ÀÖ³ª¿ä?
+## ÇÁ·ÎÁ§Æ®¸¦ ÁøÇàÇÏ°í ´À³¤ Á¡ÀÌ ÀÖ³ª¿ä?
 - PythonÀ» ¹è¿î µÚ·Î Ã³À½ ÀÛ¼ºÇØº» ½ºÅ©¸³Æ®¿´´Âµ¥ ¿Ö ´Ùµé PythonÀ» ¼±È£ÇÏ´ÂÁö ¾Ë ¼ö ÀÖÀ» Á¤µµ·Î ÄÚµå¸¦ ½±°Ô ÀÛ¼ºÇÒ ¼ö ÀÖ´Ù´Â °ÍÀ» ¾Ë°Ô µÇ¾ú½À´Ï´Ù.  
-- ¿¹¸ÅÃ¢À» ÆÄ½ÌÇÏ¸é¼­ »ý°¢º¸´Ù ´Ù¾çÇÑ ¿¹¸Å »óÅÂ°¡ ÀÖ¾ú°í, ÀÌ¸¦ ¸ðµÎ ¿¹¿ÜÃ³¸®ÇÏ´Âµ¥ ´ëºÎºÐÀÇ ½Ã°£À» ½ñ¾Ò½À´Ï´Ù. ÀÌ·Î ÀÎÇØ ±×µ¿¾È °úÁ¦¸¦ ÇÏ¸é¼­ ´À²¼´ø ¿¹¿ÜÃ³¸®ÀÇ Áß¿ä¼ºÀ» ´Ù½ÃÇÑ¹ø ´À³¢°Ô µÇ¾ú½À´Ï´Ù.  
-- ÀÌ ½ºÅ©¸³Æ®¸¦ ¸¸µé¸é¼­ ÅÚ·¹±×·¥ ¸Þ½ÃÁö Àü¼ÛÀ» À§ÇØ API ¹®¼­¸¦ Ã£¾Æº¸¾Ò´Âµ¥ ±²ÀåÈ÷ Ã¼°èÀûÀÌ°í ±¸Ã¼ÀûÀ¸·Î Â¥¿©ÀÖ´Ù´Â ´À³¦À» ¹Þ¾Ò½À´Ï´Ù. Àúµµ ÀÛÀº ÇÁ·ÎÁ§Æ®¿¡¼­ API ±Ô°ÝÀ» ¸¸µé¾î º»ÀûÀº ÀÖÁö¸¸ ÀÌ·¯ÇÑ »ó¿ë API¸¦ º¸¸é¼­ ÀÌ·¸°Ô Ã¼°èÀûÀ¸·Î Â© ¼ö ÀÖµµ·Ï ³ë·ÂÇØ¾ß°Ú´Ù°í »ý°¢ÇÏ°Ô µÇ¾ú½À´Ï´Ù.
+- ¿¹¸Å Ã¢À» ÆÄ½ÌÇÏ¸é¼­ »ý°¢º¸´Ù ´Ù¾çÇÑ ¿¹¸Å »óÅÂ°¡ ÀÖ¾ú°í, ÀÌ¸¦ ¸ðµÎ ¿¹¿ÜÃ³¸®ÇÏ´Â µ¥ ½Ã°£ ´ëºÎºÐÀ» ½ñ¾Ò½À´Ï´Ù. ÀÌ·Î ÀÎÇØ ±×µ¿¾È °úÁ¦¸¦ ÇÏ¸é¼­ ´À²¼´ø ¿¹¿ÜÃ³¸®ÀÇ Áß¿ä¼ºÀ» ´Ù½Ã ÇÑ¹ø ´À³¢°Ô µÇ¾ú½À´Ï´Ù.  
+- ÀÌ ½ºÅ©¸³Æ®¸¦ ¸¸µé¸é¼­ ÅÚ·¹±×·¥ ¸Þ½ÃÁö Àü¼ÛÀ» À§ÇØ API ¹®¼­¸¦ Ã£¾Æº¸¾Ò´Âµ¥ ±²ÀåÈ÷ Ã¼°èÀûÀÌ°í ±¸Ã¼ÀûÀ¸·Î Â¥¿©ÀÖ´Ù´Â ´À³¦À» ¹Þ¾Ò½À´Ï´Ù. Àúµµ ÀÛÀº ÇÁ·ÎÁ§Æ®¿¡¼­ API ±Ô°ÝÀ» ¸¸µé¾î º» ÀûÀº ÀÖÁö¸¸ ÀÌ·¯ÇÑ »ó¿ë API¸¦ º¸¸é¼­ ÀÌ·¸°Ô Ã¼°èÀûÀ¸·Î Â© ¼ö ÀÖµµ·Ï ³ë·ÂÇØ¾ß°Ú´Ù°í »ý°¢ÇÏ°Ô µÇ¾ú½À´Ï´Ù.

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Decrypt cgv.py-encrypted</title>
+        <style>
+            p, pre {
+                margin: .5rem 0;
+            }
+            pre {
+                padding: .5rem;
+                background-color: #EEE;
+            }
+            #md5, #sha1, #sha256 {
+                background-color: #F44;
+            }
+            .pass {
+                background-color: #4F4 !important;
+            }
+            #base64 {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+        </style>
+    </head>
+    <body>
+        <label for="pw">Password</label>
+        <input id="pw" type="password">
+        <input id="file" type="file" accept=".py-encrypted">
+
+        <p>MD5</p>
+        <pre id='md5'></pre>
+        <p>SHA-1</p>
+        <pre id='sha1'></pre>
+        <p>SHA-256</p>
+        <pre id='sha256'></pre>
+        <p>decrypted</p>
+        <pre id='output'></pre>
+        <p>base64</p>
+        <pre id='base64'></pre>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js" integrity="sha256-xoJklEMhY9dP0n54rQEaE9VeRnBEHNSfyfHlKkr9KNk=" crossorigin="anonymous"></script>
+        <script>
+            file.onchange = function (event) {
+                var reader = new FileReader();
+
+                reader.onload = function () {
+                    var encrypted = reader.result.split(',', 2)[1];
+                    try {
+                        var decrypted = decrypt(encrypted, pw.value);
+                        var decryptedText = decrypted.toString(CryptoJS.enc.Utf8);
+                        md5.innerText = CryptoJS.MD5(decryptedText).toString(CryptoJS.enc.Hex);
+                        if (md5.innerText == '1960451530e71927e82b191fd6b948bb') {
+                            md5.className = 'pass';
+                        }
+                        else {
+                            md5.className = '';
+                        }
+                        sha1.innerText = CryptoJS.SHA1(decryptedText).toString(CryptoJS.enc.Hex);
+                        if (sha1.innerText == '5ab9c3ff97aae1a0621f57de62ec04dabcd85727') {
+                            sha1.className = 'pass';
+                        }
+                        else {
+                            sha1.className = '';
+                        }
+                        sha256.innerText = CryptoJS.SHA256(decryptedText).toString(CryptoJS.enc.Hex);
+                        if (sha256.innerText == 'c795144de31a80ae3f9b86b0ddef559fc2e3c6559c90a424bdd548e6480719aa') {
+                            sha256.className = 'pass';
+                        }
+                        else {
+                            sha256.className = '';
+                        }
+                        output.innerText = decryptedText;
+                        base64.innerText = CryptoJS.enc.Base64.stringify(decrypted);
+                    } catch (e) {
+                        alert('Decrypt Error!');
+                        md5.innerText = '';
+                        md5.className = '';
+                        sha1.innerText = '';
+                        sha1.className = '';
+                        sha256.innerText = '';
+                        sha256.className = '';
+                        output.innerText = '';
+                        base64.innerText = '';
+                        file.value = '';
+                    }
+
+                };
+
+                reader.readAsDataURL(event.target.files[0]);
+            }
+
+            function decrypt(encrypted, pw) {
+                var hash = CryptoJS.SHA512(pw).toString(CryptoJS.enc.Hex);
+
+                var key = CryptoJS.enc.Hex.parse(hash.substr(0, 64));
+                var iv = CryptoJS.enc.Hex.parse(hash.substr(64, 32));
+
+                var decrypted = CryptoJS.AES.decrypt(encrypted, key, {
+                    iv: iv,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+
+                return decrypted;
+            }
+        </script>
+    </body>
+</html>

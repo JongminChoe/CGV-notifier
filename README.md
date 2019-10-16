@@ -1,7 +1,7 @@
 # CGV ¿¹¸Å ¾Ë¸®¹Ì
 
 > - ¼Ò½º ÄÚµå´Â ¿À, ³²¿ëÀÇ °¡´É¼ºÀÌ ÀÖ¾î °ø°³ÇÏÁö ¾Ê½À´Ï´Ù. ÀÌ Á¡ ¾çÇØ ¹Ù¶ø´Ï´Ù.
-> - ½ÇÁ¦ ¼Ò½º ÄÚµå´Â 120ÁÙ Á¤µµ·Î °£´ÜÇÑ Python ÄÚµåÀÔ´Ï´Ù.
+> - ½ÇÁ¦ ¼Ò½º ÄÚµå´Â 130ÁÙ Á¤µµ·Î °£´ÜÇÑ Python ÄÚµåÀÔ´Ï´Ù.
 > - Á¦°¡ ¸¸µç ¾Ë¸®¹Ìµµ °ø°³°¡ ¾î·Æ½À´Ï´Ù. Àú¿¡°Ô¸¸ ¸Þ½ÃÁö¸¦ º¸³»µµ·Ï ¼³°èµÇ¾î ÀÖ±âµµ ÇÏ°í
   Á¦°¡ º¸°í ½ÍÀº ¿µÈ­°¡ ÀÖÀ» ¶§¸¸ »ç¿ëÇÏ´ÂÁö¶ó ½ºÅ©¸³Æ®¸¦ 24½Ã°£ µ¹¸®°í ÀÖÁöµµ ¾Ê±â ¶§¹®ÀÔ´Ï´Ù.
 
@@ -95,6 +95,9 @@ CGV´Â ÀÌ·¯ÇÑ IMAX Æ÷¸ËÀ» ±¹³»¿¡¼­ µ¶Á¡ÀûÀ¸·Î °ø±ÞÇÏ°í ÀÖÀ¸¸ç ¶ÇÇÑ ¸ÖÆ¼ÇÃ·º½º ¿µÈ
 7. ÁöÁ¤µÈ ½Ã°£¸¸Å­ ¸ØÃá µÚ 1·Î µ¹¾Æ°©´Ï´Ù.
 
 ## °á°ú¸¦ º¸¿©ÁÙ ¼ö ÀÖ³ª¿ä?
+![console](./images/console.png)  
+ÇÁ·Î±×·¥ÀÌ ½ÇÇà ÁßÀÎ ÄÜ¼Ö È­¸éÀÔ´Ï´Ù.
+
 ![my_telegram_bot](./images/my_telegram_bot.jpg)  
 Á» Àü¿¡ ¼Ò°³ÇÑ ÅÚ·¹±×·¥ Ã¤³Î°ú´Â ´Þ¸® ¿¹¸Å Á¤º¸¸¦ Á¤È®ÇÏ°Ô °¡Á®¿À°í ÀÖ½À´Ï´Ù.  
 ¶ÇÇÑ HTML ´Ù¿î·Îµå ½Ã ÆÄ¶ó¹ÌÅÍ¸¸ ¼öÁ¤ÇÑ´Ù¸é ¾ó¸¶µçÁö ´Ù¸¥ ÁöÁ¡ÀÇ ¿¹¸ÅÁ¤º¸¸¦ °¡Á®¿Ã ¼ö ÀÖ½À´Ï´Ù.

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Encrypt cgv.py-encrypted</title>
+        <style>
+            p, pre {
+                margin: .5rem 0;
+            }
+            pre {
+                padding: .5rem;
+                background-color: #EEE;
+            }
+            #base64 {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+        </style>
+    </head>
+    <body>
+        <label for="pw">Password</label>
+        <input id="pw" type="password">
+        <input id="file" type="file" accept=".py">
+
+        <p>MD5</p>
+        <pre id='md5'></pre>
+        <p>SHA-1</p>
+        <pre id='sha1'></pre>
+        <p>SHA-256</p>
+        <pre id='sha256'></pre>
+        <p>original</p>
+        <pre id='original'></pre>
+        <p>base64</p>
+        <pre id='base64'></pre>
+        <a id='download' href='' download='' style='display: none'>download</a>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js" integrity="sha256-xoJklEMhY9dP0n54rQEaE9VeRnBEHNSfyfHlKkr9KNk=" crossorigin="anonymous"></script>
+        <script>
+            file.onchange = function (event) {
+                var reader = new FileReader();
+
+                reader.onload = function () {
+                    var plain = reader.result;
+                    try {
+                        var encrypted = encrypt(plain, pw.value);
+                        pw.value = '';
+                        var encryptedBase64 = encrypted.toString();
+                        md5.innerText = CryptoJS.MD5(plain).toString(CryptoJS.enc.Hex);
+                        sha1.innerText = CryptoJS.SHA1(plain).toString(CryptoJS.enc.Hex);
+                        sha256.innerText = CryptoJS.SHA256(plain).toString(CryptoJS.enc.Hex);
+                        original.innerText = plain;
+                        base64.innerText = encryptedBase64;
+                        download.href = 'data:application/octet-stream;base64,' + encryptedBase64;
+                        download.download = event.target.files[0].name + '-encrypted';
+                        download.style.display = 'block';
+                    } catch (e) {
+                        alert('Encrypt Error!');
+                        pw.value = '';
+                        md5.innerText = '';
+                        md5.className = '';
+                        sha1.innerText = '';
+                        sha1.className = '';
+                        sha256.innerText = '';
+                        sha256.className = '';
+                        base64.innerText = '';
+                        file.value = '';
+                        download.style.display = 'none';
+                    }
+
+                };
+
+                reader.readAsText(event.target.files[0]);
+            }
+
+            function encrypt(plain, pw) {
+                var hash = CryptoJS.SHA512(pw).toString(CryptoJS.enc.Hex);
+
+                var key = CryptoJS.enc.Hex.parse(hash.substr(0, 64));
+                var iv = CryptoJS.enc.Hex.parse(hash.substr(64, 32));
+
+                var encrypted = CryptoJS.AES.encrypt(plain, key, {
+                    iv: iv,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+
+                return encrypted;
+            }
+        </script>
+    </body>
+</html>

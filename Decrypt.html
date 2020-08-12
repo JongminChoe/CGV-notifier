@@ -37,6 +37,7 @@
         <pre id='output'></pre>
         <p>base64</p>
         <pre id='base64'></pre>
+        <a id='download' href='' download='' style='display: none'>download</a>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js" integrity="sha256-xoJklEMhY9dP0n54rQEaE9VeRnBEHNSfyfHlKkr9KNk=" crossorigin="anonymous"></script>
         <script>
@@ -47,32 +48,38 @@
                     var encrypted = reader.result.split(',', 2)[1];
                     try {
                         var decrypted = decrypt(encrypted, pw.value);
+                        pw.value = '';
                         var decryptedText = decrypted.toString(CryptoJS.enc.Utf8);
                         md5.innerText = CryptoJS.MD5(decryptedText).toString(CryptoJS.enc.Hex);
-                        if (md5.innerText == '1960451530e71927e82b191fd6b948bb') {
+                        if (md5.innerText == 'f8c4ac518364f2033b18a6d7b79361c9') {
                             md5.className = 'pass';
                         }
                         else {
                             md5.className = '';
                         }
                         sha1.innerText = CryptoJS.SHA1(decryptedText).toString(CryptoJS.enc.Hex);
-                        if (sha1.innerText == '5ab9c3ff97aae1a0621f57de62ec04dabcd85727') {
+                        if (sha1.innerText == 'b2c76eeb87ec7c9256ef3d179dd62ecb379ebbf5') {
                             sha1.className = 'pass';
                         }
                         else {
                             sha1.className = '';
                         }
                         sha256.innerText = CryptoJS.SHA256(decryptedText).toString(CryptoJS.enc.Hex);
-                        if (sha256.innerText == 'c795144de31a80ae3f9b86b0ddef559fc2e3c6559c90a424bdd548e6480719aa') {
+                        if (sha256.innerText == '05506b68be020d9160fbc1ad3ec337c686f7b08b4847cf5268a92bb02d73954e') {
                             sha256.className = 'pass';
                         }
                         else {
                             sha256.className = '';
                         }
                         output.innerText = decryptedText;
-                        base64.innerText = CryptoJS.enc.Base64.stringify(decrypted);
+                        var decryptedBase64 = CryptoJS.enc.Base64.stringify(decrypted);
+                        base64.innerText = decryptedBase64;
+                        download.href = 'data:application/octet-stream;base64,' + decryptedBase64;
+                        download.download = event.target.files[0].name.split('-', 2)[0];
+                        download.style.display = 'block';
                     } catch (e) {
                         alert('Decrypt Error!');
+                        pw.value = '';
                         md5.innerText = '';
                         md5.className = '';
                         sha1.innerText = '';
@@ -82,6 +89,7 @@
                         output.innerText = '';
                         base64.innerText = '';
                         file.value = '';
+                        download.style.display = 'none';
                     }
 
                 };
